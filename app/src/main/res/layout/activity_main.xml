@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#E8E3E3"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp"
+        >
+        <EditText
+            android:id="@+id/edt_number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="phone"
+            android:paddingHorizontal="10dp"
+            android:hint="phone number"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginBottom="55dp"
+        android:text="send"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp"
+        >
+        <EditText
+            android:id="@+id/edt_code"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="numberPassword"
+            android:paddingHorizontal="10dp"
+            android:hint="code verification"
+            />
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/btn_verify"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="verify"
+        />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "661332739155",
+    "project_id": "fairwithnumber",
+    "storage_bucket": "fairwithnumber.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661332739155:android:5614ec513c09c57e9e32a6",
+        "android_client_info": {
+          "package_name": "uz.rakhmonov.fairbaseauthphonenumber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661332739155-vk5gkrghrv26fl9dpna79nj43lqjsrt8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCADy_B8GDr3WRK3fT8dJNUuCC-QQE4z2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661332739155-vk5gkrghrv26fl9dpna79nj43lqjsrt8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
